@@ -1,0 +1,70 @@
+  * {
+    margin: 0;
+  }
+  
+  .app {
+    background-color: #fafafa;
+  }
+  
+  .app-posts {
+    border: 1px solid lightgray;
+    margin: auto;
+    height: 550px;
+    width: 1230px;
+  }
+
+  .box-container {
+    display: inline-block;
+  }
+  
+  .app-header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    object-fit: contain;
+    display: flex;
+    justify-content: space-between;
+    h5 {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
+  
+  .app-signup{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .upload-text{
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    background-color: #fafafa;
+  }
+
+  .square {
+    background-color: #1e83ec;
+    border-radius: 5%;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 1rem;
+    position: relative;
+    clear: both;
+    h4 {
+      color: white;
+      width: fit-content;
+      margin: auto;
+      vertical-align: middle;
+    }
+  }
+
+  .content-fit {
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+  }
